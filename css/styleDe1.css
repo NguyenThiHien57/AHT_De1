@@ -1,0 +1,327 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+.top-menu{
+    color: rgb(187, 171, 171);
+    background-color: black;
+    display: flex;
+    padding: 3px 20px;
+    font-size: small;
+}
+.top-menu__left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-menu__right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top-menu__right >i{
+    padding: 14px 16px;
+}
+.main-menu
+{
+    display: flex;
+    padding: 3px 20px;
+    list-style-type: none ;
+}
+.main-menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+.left-head-title{
+    position: absolute;
+    left: 60px;
+    top: 90px;
+    text-align: center;
+}
+.banner-different p{
+    position: absolute;
+    left: 60px;
+    top: 70px;
+    text-align: center;
+    font-family: "Montserrat";
+    color: rgb(97, 97, 97);
+}
+.left-bottom-title{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    bottom: 171px;
+    text-align: center;
+}
+
+.banner-backpack p{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(97, 97, 97);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    
+}
+.btn-bottom-shopnow{
+    position: absolute;
+    left: 40px;
+    top: 180px;
+    background-color: rgb(130, 98, 181);
+    font-size: 14px;
+    font-family: "Montserrat";
+    width: 106px;
+    height: 40px;
+    bottom: 111px;
+}
+
+.btn-shopnow{
+    position: absolute;
+    right: 88px;
+    top: 366px;
+    background-color: rgb(130, 98, 181);
+    font-size: 14px;
+    font-family: "Montserrat";
+    width: 106px;
+    height: 40px;
+}
+.btn-add{
+    position: absolute;
+    left: 5px;
+    top: 295px;
+    bottom: 10px;
+}
+.btn-watch:hover{
+    color: rgb(187, 94, 156);
+}
+.web-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-logo{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.web-nav{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cart >i{
+    padding: 14px 16px;
+}
+.section-tilte{
+    position: absolute;
+    right: 88px;
+    top: 295px;
+}
+.section-title{
+        font-size: 30px;
+        font-family: "Pacifico";
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        left: 727.964px;
+        top: 469.828px;
+}
+.title-product{
+    font-family: "Montserrat";
+    left: 80px;
+    top: 690px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+    text-align: left;
+  
+}
+.title-product a{
+    text-decoration: none;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(130, 98, 181);
+    font-weight: bold;
+    text-align: left;
+    left: 80px;
+    top: 670px;
+}
+.list-product-row1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.list-product-row2{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.web-blog-content{
+    background-image: url(/images/background_06.jpg);
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blog{
+    width: 1140px;
+    
+}
+.title-blog a{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(130, 98, 181);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center; 
+    bottom: 966px;
+    text-decoration: none;
+}
+.title-blog{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    bottom: 966px;
+    text-decoration: none;
+}
+.blog-list{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-middle{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-middle-about{
+    
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    justify-content: flex-start;
+}
+.footer-middle-navigation{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.container-menu-footer
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-middle-shoplocation{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.footer-bottom{
+    display: block;
+    text-align: center;
+
+} 
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);;
+    color: white;
+}
+.menu-f , .menu2-f{
+    
+    list-style-type: none;
+}   
+.menu-f a{
+    color: white;
+    text-decoration: none;
+}
+.menu2-f a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom{
+    color: rgb(187, 171, 171);
+    display: flex;
+    padding: 3px 20px;
+    justify-content: center;
+}
+.copy{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.copy a{
+    color: white;
+    text-decoration: none;
+}
+.pay{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: white;
+    line-height: 1.1;
+    text-align: left;
+}
+.footer{
+    clear: both;
+}
+.container{
+    width: 1140px;
+}
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    }
+  }
+  
