@@ -44,6 +44,15 @@ html{
     top: 90px;
     text-align: center;
 }
+.banner-materials{
+    margin: 10px;
+}
+.banner-different{
+    margin: 10px;
+}
+.left-banner{
+    margin: 10px;
+}
 .banner-different p{
     position: absolute;
     left: 60px;
@@ -52,14 +61,11 @@ html{
     font-family: "Montserrat";
     color: rgb(97, 97, 97);
 }
-.left-bottom-title{
-    position: absolute;
-    left: 40px;
-    top: 120px;
-    bottom: 171px;
-    text-align: center;
-}
 
+.banner-backpack{
+    margin: 10px;
+    padding-top: 15px;
+}
 .banner-backpack p{
     position: absolute;
     left: 40px;
@@ -71,7 +77,13 @@ html{
     text-transform: uppercase;
     line-height: 1.2;
     text-align: left;
-    
+}
+.left-bottom-title{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    bottom: 171px;
+    text-align: center;
 }
 .btn-bottom-shopnow{
     position: absolute;
@@ -100,6 +112,12 @@ html{
     left: 5px;
     top: 295px;
     bottom: 10px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
 }
 .btn-watch:hover{
     color: rgb(187, 94, 156);
@@ -173,6 +191,30 @@ html{
     display: flex;
     justify-content: center;
 }
+.Watch{
+    margin: 10px;
+}
+.Herbag{
+    margin: 10px;
+}
+.Bag{
+    margin: 10px;
+}
+.Clothes{
+    margin: 10px;
+}
+.two-bags{
+    margin: 10px;
+}
+.sandals{
+    margin: 10px;
+}
+.her{
+    margin: 10px;
+}
+.balo{
+    margin: 10px;
+}
 .list-product-row2{
     width: 100%;
     margin: 0 auto;
@@ -185,11 +227,18 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .blog{
     width: 1140px;
-    
+}
+.blog1{
+    margin: 10px;
+}
+.blog2{
+    margin: 10px;
+}
+.blog3{
+    margin: 10px;
 }
 .title-blog a{
     font-size: 16px;
@@ -226,21 +275,24 @@ html{
     justify-content: center;
 }
 .footer-middle-about{
-    
     width: 100%;
-    margin: 0 auto;
+    margin: 10px;
     display: inline-block;
     justify-content: flex-start;
 }
 .footer-middle-navigation{
     width: 100%;
-    margin: 0 auto;
+    margin-left: 10px;
+    display: inline-block;
     justify-content: center;
+}
+.h-navi{
+    margin-left: 50px;
 }
 .container-menu-footer
 {
     width: 100%;
-    margin: 0 auto;
+    margin: 10px;
     display: flex;
 }
 .footer-middle-shoplocation{
@@ -260,10 +312,12 @@ html{
     align-items: center;
     justify-content: center;
 }
-#container{
+#container-ads{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .web-footer{
@@ -296,10 +350,15 @@ html{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: -25px;
 }
 .copy a{
     color: white;
     text-decoration: none;
+}
+.copy i{
+    margin: 3px;
+    color: red;
 }
 .pay{
     width: 50%;
@@ -312,10 +371,16 @@ html{
     line-height: 1.1;
     text-align: left;
 }
+.pay i{
+    margin: 3px;
+}
 .footer{
     clear: both;
 }
-.container{
+.container-ads{
+    width: 1140px;
+}
+.footer-middle{
     width: 1140px;
 }
 @media only screen and (max-width:800px) {
@@ -335,9 +400,10 @@ html{
     }
 }
 @media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+}
+
 
   
