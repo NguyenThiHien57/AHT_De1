@@ -318,10 +318,26 @@ html{
 .container{
     width: 1140px;
 }
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
     .menu, .main, .right {
       width:100%;
     }
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
   }
+
   
