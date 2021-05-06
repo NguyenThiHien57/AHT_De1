@@ -44,6 +44,9 @@ html{
     top: 90px;
     text-align: center;
 }
+.section-banner{
+    width: 1140px;
+}
 .banner-materials{
     margin: 10px;
 }
@@ -172,7 +175,7 @@ html{
     font-size: 16px;
     color: rgb(97, 97, 97);
     text-align: left;
-  
+    margin-left: 8px;
 }
 .title-product a{
     text-decoration: none;
@@ -190,6 +193,17 @@ html{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+.dollar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.dollar p{
+    color: black;
+    text-decoration: none;
+    word-spacing: 20px;
 }
 .Watch{
     margin: 10px;
@@ -227,6 +241,15 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 40px;
+}
+.blog-title{
+    font-family: "Montserrat";
+}
+.decription{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 14px;
 }
 .blog{
     width: 1140px;
@@ -260,22 +283,32 @@ html{
 }
 .title-blog a{
     font-size: 16px;
+    letter-spacing: 5px;
     font-family: "Montserrat";
     color: rgb(130, 98, 181);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
+    -moz-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
+  -webkit-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
+  -ms-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
+ 
     text-align: center; 
     bottom: 966px;
     text-decoration: none;
 }
 .title-blog{
     font-size: 16px;
+    letter-spacing: 5px;
     font-family: "Montserrat";
     color: black;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
+    -webkit-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
+    -ms-transform: matrix( 0.99962470350605,0,0,0.99999984781795,0,0);
     text-align: center;
     bottom: 966px;
     text-decoration: none;
@@ -285,6 +318,10 @@ html{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+.load{
+    text-align: center;
+    font-size: xx-large;
 }
 .footer-middle{
     width: 100%;
@@ -422,6 +459,11 @@ html{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+@media all and (max-width: 320px) {
+    body {
+       background: #e7e7e7;
+    }
+ }
 
 
   
